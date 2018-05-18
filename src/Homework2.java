@@ -13,9 +13,8 @@ public class Homework2 {
 
     private static void task_2_1() {
         String word = "Madam";
-        word = word.toLowerCase();
 
-        char[] chars = word.toCharArray();
+        char[] chars = word.toLowerCase().toCharArray();
         int length = chars.length;
         String result = "Is palindrome";
 
